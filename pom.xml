@@ -7,7 +7,7 @@
   <name>Galen Framework Sample Java Test Project</name>
   <packaging>jar</packaging>
   <description>A test project for testing Galen using Java-based tests</description>
-  
+
   <dependencies>
     <dependency>
       <groupId>org.hamcrest</groupId>
@@ -24,7 +24,7 @@
     <dependency>
       <groupId>com.galenframework</groupId>
       <artifactId>galen-java-support</artifactId>
-      <version>2.3.0</version>
+      <version>2.4.4</version>
     </dependency>
   </dependencies>
   <build>
@@ -62,5 +62,5 @@
       <distribution>manual</distribution>
     </license>
   </licenses>
- 
+
 </project>

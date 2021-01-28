@@ -14,8 +14,12 @@ public abstract class GalenTestBase extends GalenTestNgTestBase {
 
     private static final String ENV_URL = "http://testapp.galenframework.com";
 
-    @Override
+
+
+
+//    @Override
     public WebDriver createDriver(Object[] args) {
+        System.setProperty("webdriver.gecko.driver", "/Users/jaya/Tools/geckodriver");
         WebDriver driver = new FirefoxDriver();
         if (args.length > 0) {
             if (args[0] != null && args[0] instanceof TestDevice) {

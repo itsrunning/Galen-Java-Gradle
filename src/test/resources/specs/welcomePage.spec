@@ -19,12 +19,11 @@
 
         text-block-1:
             height > 20px
-            above login-button 50 to 70 px
 
         login-button:
             height ~ 45px
             text is "Login"
-            inside text-block-3 720 to 730px right
+            inside text-block-3 0px left
 
 
     @on desktop
@@ -35,6 +34,9 @@
         login-button:
             width ~ 78px
 
+        text-block-1:
+            above login-button ~ 60px
+
 
     @on tablet
         greeting:
@@ -44,6 +46,9 @@
         login-button:
             width ~ 78px
 
+        text-block-1:
+            above login-button ~ 91px
+
     @on mobile
         greeting:
             height ~ 78px
@@ -51,3 +56,6 @@
 
         login-button:
             inside welcome-block ~ 30px left right
+
+        text-block-1:
+            above login-button ~ 130px

@@ -91,5 +91,5 @@
 
 = Footer =
     footer:
-        height ~ 200px
+        height ~ 150px
         below content 0px
